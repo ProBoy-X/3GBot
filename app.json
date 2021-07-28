@@ -1,12 +1,12 @@
 {
-  "name": "DaisyXMusic",
-  "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
-  "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/TeamDaisyX/DaisyXMusic",
+  "name": "Spam Bot",
+  "description": "Open Source for everyone to make their own spam bots..",
+  "keywords": ["spam", "spammers", "telegram"],
+  "repository": "https://github.com/Proboy-X/3GBot",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
-      "description": "Pyrogram session string",
+      "description": "session string",
       "required": true
     },
     "BOT_TOKEN": {
@@ -18,48 +18,27 @@
       "required": true
     },
     "BOT_NAME": {
-      "description": "Your MusicPlayer Bot Name.",
+      "description": "Your Spam Bot Name.",
       "required": false,
       "value": ""
     },
-    "SUPPORT_GROUP": {
-      "description": "Your MusicPlayer support group without @ [Leave this if you don't have one]",
-      "required": false,
-      "value": "DaisySupport_Official"
-    },
-    "PROJECT_NAME": {
-      "description": "Your MusicPlayer project Name.",
-      "required": false,
-      "value": "DaisyXMusic v4"
-    },
-    "ASSISTANT_NAME": {
-      "description": "Your MusicPlayer's assistant Username without @.",
+    
+    "OWNER_ID": {
+      "description": "Your id.",
       "required": true
     },
+    
     "ARQ_API_KEY": {
       "description": "Get from @ARQRobot.",
       "required": false,
       "value": "VKSSQH-SRNJYZ-MSOJAI-QALESR-ARQ"
     },    
-    "BG_IMAGE": {
-      "description": "BG image of bot (Use transparent one) [IGNORE].",
-      "required": false,
-      "value": " https://telegra.ph/file/dcfdf612e499eef0e0b1f.png"
-    },     
-    "UPDATES_CHANNEL": {
-      "description": "Updates Channel without @ [Leave this if you don't have one].",
-      "required": false,
-      "value": "DaisyXupdates"
-    },    
+     
     "API_ID": {
       "description": "App ID from my.telegram.org/apps",
       "required": true
     },
-    "PMPERMIT": {
-      "description": "Change to turn off",
-      "required": false,
-      "value": "ENABLE"
-    },    
+   
     "API_HASH": {
       "description": "App hash from my.telegram.org/apps",
       "required": true
@@ -68,10 +47,5 @@
       "description": "List of user IDs counted as admin everywhere (separated by space).",
       "required": true
     },
-    "DURATION_LIMIT": {
-      "description": "Max audio duration limit for downloads (minutes).",
-      "required": true,
-      "value": "10"
-    }
   }
 }
